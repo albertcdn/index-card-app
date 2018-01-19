@@ -1,0 +1,17 @@
+html
+  head
+    style
+      include css/style.css
+  body
+    div
+      h2 Add a new word
+      form(method='POST' action='/word/add/')
+      div
+        label(for='word') Word:
+        br
+        input(type='text' placeholder='word' name='word')
+      div
+        label(for='definition') Definition:
+        br
+        input(type='text', placeholder='definition' name='definition')  
+    button(type='submit') Submit
