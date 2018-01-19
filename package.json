@@ -1,0 +1,22 @@
+{
+  "name": "index-card-app",
+  "version": "1.0.0",
+  "description": "A simple index card app for studying",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulaz1z/index-card-app.git"
+  },
+  "author": "Albert and Abdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulaz1z/index-card-app/issues"
+  },
+  "homepage": "https://github.com/abdulaz1z/index-card-app#readme",
+  "dependencies": {
+    "pug": "^2.0.0-rc.4"
+  }
+}
